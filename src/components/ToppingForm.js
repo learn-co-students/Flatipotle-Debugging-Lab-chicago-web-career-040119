@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 
 const ToppingForm = (props) => {
   return (
+    
     <Fragment>
       <h1><label htmlFor="toppings">Toppings</label></h1>
       <div className="inline fields ui centered grid">
@@ -19,7 +20,6 @@ const ToppingForm = (props) => {
             <label htmlFor="mild">Mild Hot Sauce</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -34,7 +34,6 @@ const ToppingForm = (props) => {
             <label htmlFor="medium">Medium Hot Sauce</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -49,7 +48,6 @@ const ToppingForm = (props) => {
             <label htmlFor="hot">HOT Hot Sauce</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -64,7 +62,6 @@ const ToppingForm = (props) => {
             <label htmlFor="corn">Corn Salsa</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -79,7 +76,6 @@ const ToppingForm = (props) => {
             <label htmlFor="sour cream">Sour Cream</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -94,7 +90,6 @@ const ToppingForm = (props) => {
             <label htmlFor="lettuce">Lettuce</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -109,7 +104,6 @@ const ToppingForm = (props) => {
             <label htmlFor="guac">Guac</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -125,6 +119,7 @@ const ToppingForm = (props) => {
           </div>
         </div>
       </div>
+    
     </Fragment>
   )
 }
