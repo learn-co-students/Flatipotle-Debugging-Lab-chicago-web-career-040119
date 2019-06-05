@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 
-const ProteinForm = () => {
+const ProteinForm = (props) => {
   return (
+    
     <Fragment>
       <h1><label htmlFor="protein">Protein</label></h1>
       <div className="inline fields ui centered grid">
@@ -12,6 +13,7 @@ const ProteinForm = () => {
               type="checkbox"
               value="Barbacoa"
               name="protein"
+             
               checked={ props.protein.includes('Barbacoa') }
               onChange={ props.handleChange }
             />
@@ -19,7 +21,6 @@ const ProteinForm = () => {
             <label htmlFor="barbacoa">Barbacoa</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -27,6 +28,7 @@ const ProteinForm = () => {
               type="checkbox"
               value="Steak"
               name="protein"
+              
               checked={ props.protein.includes('Steak') }
               onChange={ props.handleChange }
             />
@@ -34,7 +36,6 @@ const ProteinForm = () => {
             <label htmlFor="steak">Steak</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -49,7 +50,6 @@ const ProteinForm = () => {
             <label htmlFor="chicken">Chicken</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -64,7 +64,6 @@ const ProteinForm = () => {
             <label htmlFor="carnitas">Carnitas</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -80,6 +79,7 @@ const ProteinForm = () => {
           </div>
         </div>
       </div>
+    
     </Fragment>
   )
 }

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 
 const SideForm = (props) => {
   return (
+  
     <Fragment>
       <h1><label htmlFor="sides">Sides</label></h1>
       <div className="inline fields ui centered grid">
@@ -19,7 +20,6 @@ const SideForm = (props) => {
             <label htmlFor="chips">Chips</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -34,7 +34,6 @@ const SideForm = (props) => {
             <label htmlFor="chips-salsa">Chips & Salsa</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -49,7 +48,6 @@ const SideForm = (props) => {
             <label htmlFor="chips-guac">Chips & Guac</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -64,7 +62,6 @@ const SideForm = (props) => {
             <label htmlFor="chips-queso">Chips & Queso</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -79,7 +76,6 @@ const SideForm = (props) => {
             <label htmlFor="tortila">Tortilla</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -94,7 +90,6 @@ const SideForm = (props) => {
             <label htmlFor="taco">Taco</label>
           </div>
         </div>
-
         <div className="field">
           <div className="ui checkbox">
             <input
@@ -110,6 +105,9 @@ const SideForm = (props) => {
           </div>
         </div>
       </div>
+    
     </Fragment>
   )
 }
+
+export default SideForm
